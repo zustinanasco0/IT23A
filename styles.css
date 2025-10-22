@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e2d3d370;
+    color: #5606c0;
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-pixabay-65924.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+header {
+    width: 100%;
+    background-color: #331357a2;
+    color: rgba(126, 43, 221, 0.671);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 900px;
+    margin: 75px auto;
+    background-color: rgba(210, 112, 255, 0.349);
+    padding: 50px; 
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+
+.profile-image-container {
+    margin-bottom: 20px; 
+}
+
+
+.circle-profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.profile-details {
+    margin-top: 0; 
+}
+
+h1, h2, h3 {
+    color: #aa5ef7;
+    text-decoration: solid; 
+}
+
+h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #08111a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#my-button {
+    padding: 10px 15px;
+    background-color: #d3e2d6;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px; 
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#my-button:hover {
+    background-color: #00000042;
+}

@@ -10,3 +10,4 @@ button.addEventListener('click', () => {
     heading.textContent = 'You clicked the button!';
     heading.style.color = '#7409d8ff';
 });
+    
