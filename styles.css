@@ -96,3 +96,125 @@ a:hover {
 #my-button:hover {
     background-color: #00000042;
 }
+
+  body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; 
+            background-image: url('pexels-pixabay-65924.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            color: #8a2be2; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+       
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            border-bottom: 2px solid #8a2be2; 
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #8a2be2; 
+            transition: color 0.3s ease; 
+        }
+
+       
+        main {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 0 10px #8a2be2; 
+        }
+
+        
+        .profile-container {
+            margin-bottom: 20px;
+        }
+
+        .circle-profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            border: 5px solid #8a2be2; 
+            object-fit: cover; 
+            box-shadow: 0 0 15px #8a2be2; 
+        }
+
+       
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            color: #8a2be2; /* Purple headings */
+            border-bottom: 1px solid #8a2be2; /* Purple underline */
+            padding-bottom: 5px;
+            font-size: 1.5em;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        section a {
+            color: #daa520; /* Gold link color for contrast */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+       
+        #my-button {
+            background-color: #8a2be2;
+            color: #000000; 
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        #my-button:hover {
+            background-color: #000000; 
+        }
+
+      
+        #background-music {
+            display: none; 
+        }
+
+       
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .circle-profile {
+                width: 120px;
+                height: 120px;
+            }
+            main {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
